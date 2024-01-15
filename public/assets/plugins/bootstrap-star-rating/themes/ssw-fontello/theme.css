@@ -1,0 +1,16 @@
+/*!
+ * Ssw Fontello Theme styling for bootstrap-star-rating.
+ * This file must be loaded after 'star-rating.css'.
+ *
+ * @see http://github.com/kartik-v/bootstrap-star-rating
+ * @author Kartik Visweswaran <kartikv2@gmail.com>
+ */
+.rating-container .filled-stars {
+    color: #ffdc00;
+}
+.rating-container .ssw-icon-star:before {
+    margin: 0px;
+}
+.rating-container .ssw-icon-star-empty:before {
+    margin: 0px;
+}

@@ -1,0 +1,703 @@
+/**========================================================================
+ *                                  Roots
+ *========================================================================**/
+
+@media only screen and (max-width: 500px) {
+    /**========================================================================
+    *                                  GENERAL
+    *========================================================================**/
+
+    body {
+        font-size: 13px !important;
+    }
+
+    /*================== MARGINS =================*/
+
+    .section-my {
+        margin-bottom: 80px !important;
+        margin-top: 80px !important;
+    }
+
+    .section-mb {
+        margin-bottom: 80px !important;
+    }
+
+    .section-mt {
+        margin-top: 80px !important;
+    }
+
+    .section-py {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    .section-pb {
+        padding-bottom: 80px !important;
+    }
+
+    .section-pt {
+        padding-top: 80px !important;
+    }
+
+    .section-padding {
+        padding: 80px;
+    }
+
+    .section-py-mob {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    .section-pb-mob {
+        padding-bottom: 80px !important;
+    }
+
+    .section-pt-mob {
+        padding-top: 80px !important;
+    }
+
+    .mob-pt-0 {
+        padding-top: 0 !important;
+    }
+
+    .mob-pb-0 {
+        padding-bottom: 0 !important;
+    }
+
+    /*------------------ HEADINGS -----------------*/
+
+    .section-heading {
+        font-size: 24px;
+        line-height: 1.2;
+        margin-top: -5px;
+    }
+
+    .s-heading {
+        font-size: 14px !important;
+    }
+
+    /*------------------ BUTTON -----------------*/
+
+    .main_btn {
+        font-size: 13px;
+    }
+
+    /**========================================================================
+        *                           PRELOADER
+        *========================================================================**/
+
+    .preloader img {
+        width: 100%;
+    }
+
+    .accordion-1 .c-accordion__title .c-accordion__title__highlited {
+        margin-left: 2px;
+    }
+
+    /**========================================================================
+        *                                  HEADER
+        *========================================================================**/
+
+    /*================== BREADCRUMB =================*/
+
+    .breadcrumb-wrapper {
+        height: 200px !important;
+    }
+
+    .breadcrumb-wrapper .black-bg {
+        padding: 0;
+    }
+
+    .breadcrumb-wrapper .title {
+        font-size: 25px;
+        margin-bottom: 8px;
+        line-height: 35px;
+        padding: 0 12px;
+    }
+
+    .breadcrumb-wrapper .title::before {
+        left: -45px;
+    }
+
+    .breadcrumb-wrapper .title::after {
+        right: -45px;
+    }
+
+    .breadcrumb-wrapper .title::before,
+    .breadcrumb-wrapper .title::after {
+        width: 30px;
+        display: none;
+    }
+
+    /*================== NAVIGATION =================*/
+
+    /* .navbar-collapse {
+    display: none;
+  } */
+
+    li.mob-nav-item {
+        padding: 12px 21px;
+    }
+
+    li.mob-nav-item.active {
+        background-color: var(--gold);
+        box-shadow: inset 0px 0px 4px -3px rgb(0 0 0 / 50%);
+    }
+
+    li.mob-nav-item.active .mob-nav-link {
+        color: rgb(255, 255, 255);
+    }
+
+    .mob-nav-link {
+        color: black;
+        font-weight: 500;
+        width: 100%;
+        display: block;
+    }
+
+    .mob-navbar .navbar-toggler {
+        background-color: var(--green);
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .mob-navbar .navbar-toggler .bar-icon {
+        font-size: 16px;
+    }
+
+    ul.dropdown-menu li {
+        padding: 12px 0;
+        color: white;
+    }
+
+    /**========================================================================
+        *                                  CONTACT US PAGE
+        *========================================================================**/
+
+    .form-label,
+    .form-input,
+    select,
+    textarea,
+    .footer .footer_center_side .form-control input {
+        font-size: 14px !important;
+    }
+
+    .form-label {
+        display: none;
+    }
+
+    .form-input::placeholder {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .contact_us_form .form-control input::placeholder {
+        color: black !important;
+    }
+
+    /**=============================================================
+  *                         FLEET PAGE
+  *=============================================================**/
+
+    figure::before {
+        opacity: 0.8 !important;
+        background: linear-gradient(to top,
+                var(--green) 0%,
+                var(--) 12%,
+                #1c93593e 50%,
+                #1c935926 60%,
+                hsla(0, 0%, 0%, 0.01) 75%,
+                hsla(0, 0%, 0%, 0) 100%);
+    }
+
+    figure .header__caption {
+        transform: translateY(0) !important;
+        opacity: 1 !important;
+    }
+
+    figure img {
+        transform: scale(1);
+    }
+
+    .table-responsive {
+        overflow: scroll;
+        width: 100%;
+    }
+
+    .fleet_table td,
+    .fleet_table th {
+        font-size: 14px;
+    }
+
+    .fleet_table.fleet-daily-table thead th:nth-child(1) {
+        min-width: 123px;
+    }
+
+    .fleet_table.fleet-daily-table thead th:nth-child(2),
+    .fleet_table.fleet-daily-table thead th:nth-child(3),
+    .fleet_table.fleet-daily-table thead th:nth-child(4),
+    .fleet_table.fleet-daily-table thead th:nth-child(5) {
+        min-width: 100px;
+    }
+
+    .fleet_table.fleet-monthly-table thead th:nth-child(1) {
+        min-width: 123px;
+    }
+
+    .fleet_table.fleet-monthly-table thead th:nth-child(2),
+    .fleet_table.fleet-monthly-table thead th:nth-child(3),
+    .fleet_table.fleet-monthly-table thead th:nth-child(4) {
+        min-width: 123px;
+    }
+
+    .fleet_table.fleet-monthly-table thead th:nth-child(5) {
+        min-width: 200px;
+    }
+
+    /**=============================================================
+    *                         PRODUCTS PAGE
+    *=============================================================**/
+
+    .product-item .product-img {
+        height: 375px !important;
+    }
+
+    /**=============================================================
+    *                         ABOUT US PAGE
+    *=============================================================**/
+
+    .home-about-slider-item {
+        height: 220px;
+    }
+
+    .section-about .about-img {
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .secton_title_area .section_title h2 {
+        font-size: 24px;
+    }
+
+    .section-message .banner-item .banner-content .title {
+        font-size: 22px;
+    }
+
+    .section-message .banner-item {
+        padding: 35px 25px;
+    }
+
+    .section-counter-up .counter-item .counter {
+        font-size: 45px;
+    }
+
+    .section-counter-up .counter-item .counter-inner-text {
+        font-size: 70px;
+    }
+
+    .section-counter-up .counter-item .counter-title {
+        font-size: 22px;
+    }
+
+    .secton_title_area {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .secton_title_area .section_title {
+        padding-right: 0px;
+        margin-right: 0px;
+        text-align: start;
+    }
+
+    .secton_title_area .section_title:before {
+        display: none;
+    }
+
+    .secton_title_area .section_title h2 {
+        margin-bottom: 20px;
+    }
+
+    /* OUR TEAM SLIDER  */
+
+    .about-us-page-design-1 .our-team-slider {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+
+    .about-us-page-design-1 .our-team-slider .our-team-item .team-img:before {
+        background: linear-gradient(to bottom,
+                #ffffff00 45%,
+                rgba(0, 35, 90, 0.8) 70%,
+                #00225a 90%);
+        visibility: visible;
+        opacity: 0.9;
+    }
+
+    .about-us-page-design-1 .our-team-slider .our-team-item .team-content {
+        bottom: 30px;
+    }
+
+    .about-us-page-design-1 .our-team-slider .our-team-item .team-img .add-action {
+        right: 0;
+        background-color: var(--orange);
+    }
+
+    /*================== SECTION STRIPS =================*/
+
+    .home-page .section-strips .strips {
+        flex-direction: column;
+    }
+
+    .home-page .section-strips .strips .strip {
+        height: 165px;
+    }
+
+    .home-page .section-strips .strips .strip .strip-content h1 {
+        font-size: 24px;
+    }
+
+    .section-marquee #marquee {
+        padding-bottom: 0px;
+    }
+
+    /*================== OUR TEAM =================*/
+
+    /**============================================
+    *               IMAGE HOVER EFFECT 7
+    *=============================================**/
+
+    .team-hover {
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .team-hover .flip-card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0 12px;
+    }
+
+    .team-hover .flip-card .imgBox {
+        height: 400px;
+    }
+
+    .team-hover .flip-card .details {
+        position: static;
+        min-height: 200px;
+    }
+
+    .team-hover .flip-card:hover {
+        transform: translateX(0);
+    }
+
+    .team-hover .flip-card:hover .imgBox {
+        transform: rotateY(0);
+    }
+
+    /**========================================================================
+    *                                HOME PAGE
+    *========================================================================**/
+
+    /*================== HERO SECTION  =================*/
+
+    .home-page .hero-section {
+        height: 280px;
+    }
+
+    .home-page .hero-section .content .heading {
+        font-size: 24px;
+    }
+
+    .home-page .hero-section .content .heading,
+    .home-page .hero-section .content .text {
+        text-align: center;
+    }
+
+    .home-page .hero-section .content a {
+        display: none;
+    }
+
+    .home-page .hero-section .content {
+        transform: translateY(-50%);
+    }
+
+    .home-page .hero-section .content-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /*================== SECTION INFO =================*/
+
+
+
+    .section-info .info-box {
+        padding: 40px 48px;
+        border-bottom: 1px solid #cacaca;
+    }
+
+    .section-about .experience {
+        top: 200px;
+        width: 130px;
+        height: 130px;
+        z-index: 1;
+    }
+
+    .section-about .experience span.year {
+        font-size: 28px;
+        margin-bottom: 0px;
+    }
+
+    .section-about .experience span.text {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .section-about .description {
+        position: relative;
+        bottom: 0px;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .section_home_about .about-section-left {
+        padding: 0px;
+    }
+
+    .section_services .project-slider {
+        width: 100%;
+    }
+
+    .section_services .project-slider img {
+        border-radius: 0px;
+    }
+
+    .section_services .portfolio-detail {
+        position: unset;
+        padding: 42px 22px 22px;
+        width: 100%;
+        height: auto;
+    }
+
+    .services-slider .slick-arrow,
+    .services-slider-2 .slick-arrow {
+        font-size: 27px;
+    }
+
+    .section-counter .counter-box {
+        gap: 6px;
+    }
+
+    .section-testimonial .testimonial-space {
+        padding: 0;
+    }
+
+    .creativeBox {
+        width: auto;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: -50px;
+    }
+
+    .creativeBox .innerBorder {
+        padding: 50px 15px !important;
+    }
+
+    .section-fixed .fixed-bg {
+        min-height: 200px;
+    }
+
+    .section-fixed .fixed-bg .fixed-content {
+        padding: 54px 20px;
+    }
+
+    .section-testimonial .testimonial-item {
+        margin-bottom: 0;
+    }
+
+    [class*="clients-slider"] .slick-slide {
+        margin-bottom: 0;
+    }
+
+    .section-testimonial .testimonial-slider .slick-arrow {
+        display: none !important;
+    }
+
+    /**========================================================================
+  *                                  WHY US PAGE
+  *====================================================================**/
+
+    .choose-us-item {
+        padding: 30px 25px;
+    }
+
+    .choose-us-item h1 {
+        font-size: 18px;
+    }
+
+    .services-img-cont .services-img-pattern {
+        right: -10px;
+    }
+
+    .service-boxes {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    /**========================================================================
+     *                           WHAT"S NEW PAGE
+     *========================================================================**/
+
+    .section-whats-new .all-posts .post {
+        grid-template-columns: 1fr;
+    }
+
+    .section-whats-new .all-posts .post-content {
+        padding: 24px 22px;
+    }
+
+    .section-whats-new .all-posts .post-info {
+        height: 190px;
+        margin-bottom: 18px;
+    }
+
+    .section-whats-new .all-posts .post-heading {
+        font-size: 20px;
+    }
+
+    .section-whats-new .all-posts .post-text {
+        font-size: 14px;
+    }
+
+    .section-whats-new .all-posts .post-stats {
+        padding-top: 22px;
+    }
+
+
+    /**========================================================================
+     *                           WHAT"S NEW SINGLE PAGE
+     *========================================================================**/
+
+    .single-post {
+        padding: 24px;
+    }
+
+    .single-post .post-heading {
+        font-size: 20px;
+    }
+
+    .single-post .post-content .whats-new-slider {
+        height: 220px;
+    }
+
+    .single-post .post-content .product-thumbs {
+        height: 105px;
+    }
+
+    .single-post .swiper-button-prev,
+    .single-post .swiper-button-next {
+        transform: translateY(-25%);
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .single-post .swiper-button-prev::after,
+    .single-post .swiper-button-next::after {
+        font-size: 14px;
+    }
+
+    .single-post .swiper-button-prev {
+        left: 12px;
+    }
+
+    .single-post .swiper-button-next {
+        right: 12px;
+    }
+
+    /**========================================================================
+    *                                  FOOTER
+    *====================================================================**/
+
+    /* NEWSLETTER */
+
+    .newsletter {
+        width: 100%;
+        flex-direction: column;
+        padding: 35px 15px;
+        margin: 0px 0 0;
+        float: none;
+        transform: translateY(0);
+    }
+
+    .newsletter .newsletter-textbox {
+        width: 100%;
+    }
+
+    .newsletter-box {
+        width: 100%;
+        margin: 15px 0 0;
+    }
+
+    .newsletter .newsletter-textbox .f-sub-heading {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .newsletter .newsletter-textbox .heading {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+
+    .newsletter-box .newsletter-box-input {
+        font-size: 14px;
+        height: 40px;
+        padding: 0 130px 0 16px;
+        font-weight: 500;
+    }
+
+    .newsletter-box button {
+        height: 40px;
+        padding: 0 25px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .newsletter .newsletter-textbox .sub-heading {
+        text-align: center;
+    }
+
+    /*================================ FOOTER ==============================*/
+
+    .footer .black-bg {
+        padding: 60px 0 18px 0;
+    }
+
+    .footer .f_services_links,
+    .footer .quick_links {
+        gap: 16px;
+    }
+
+    .footer .footer_copyright {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .footer .footer_copyright p a {
+        padding: 0;
+    }
+
+    .section_services .grid-cols-12 p {
+        margin: 0;
+        padding: 0;
+    }
+}
